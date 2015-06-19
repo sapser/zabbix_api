@@ -2,7 +2,9 @@
 
 ### 介绍
 调用zabbix提供的api，实现自动化操作zabbix监控系统，目前只实现了几个基本功能，如获取host、group、template和proxy的信息，还有添加新的host。
+
 该脚本需要argparse(python2.7及以上默认已装)和requests模块，不支持python3。
+
 该脚本支持zabbix2.2和zabbix2.4的api接口。
 
 用法：

@@ -245,5 +245,5 @@ if __name__ == "__main__":
     reload(sys)
     sys.setdefaultencoding('utf-8')
 
-    main("http://zabbixpt.uuzu.com/api_jsonrpc.php")
+    main("http://domain/api_jsonrpc.php")
 
